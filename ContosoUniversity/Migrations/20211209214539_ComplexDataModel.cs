@@ -67,7 +67,7 @@ namespace ContosoUniversity.Migrations
 
             migrationBuilder.CreateTable(
                 name: "Department",
-                columns: table => new
+                columns: table => new 
                 {
                     DepartmentID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
